@@ -15,6 +15,11 @@ def asciiToString(ascii):
 	#TODO
 	return
 
+def xor(ascii1, ascii2):
+	"""XOR two ascii strings together"""
+	#TODO
+	return
+
 def encrypt(message, key):
 	"""Return a ciphertext string based on the message"""
 	#TODO
