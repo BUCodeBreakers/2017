@@ -6,7 +6,6 @@ def problem2():
   
 def problem3():
     """Find the largest prime factor of 600851475143."""
-    return max(prime_factors(600851475143))
 
 def problem4():
     """Find the largest palindrome made from the product of two 3-digit numbers."""
@@ -33,7 +32,6 @@ def problem10():
 def problem11():
     """What is the greatest product of four adjacent numbers in any direction 
     (up, down, left, right, or diagonally) in the 20x20 grid?"""
-
 
 def problem14():
     """The following iterative sequence is defined for the set of positive 
