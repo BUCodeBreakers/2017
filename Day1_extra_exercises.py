@@ -19,8 +19,7 @@ def problem6():
     hundred natural numbers (1, 2, 3. ....) and the square of the sum."""
 
 def problem7():
-    """What is the 10001st prime number?."""
-    return index(10001-1, get_primes())
+    """What is the 10001st prime number?"""
   
 def problem9():
     """There exists exactly one Pythagorean triplet for which a + b + c = 1000.
