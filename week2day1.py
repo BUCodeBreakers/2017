@@ -77,7 +77,7 @@ def compareaandd():
 
 # Write a function that uses a for loop to XOR (^) every element of
 # bytes objects ascii1 and ascii2, puts the result in a new list,
-# then returns the result.
+# plug the list into the bytes() function, and returns that.
 def xor(ascii1, ascii2):
 	return # replace this!
 
