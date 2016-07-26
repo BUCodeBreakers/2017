@@ -24,7 +24,7 @@ message2 = 'this message has 0032 characters'
 iv = os.urandom(16)
 
 # Define a cipher object by doing this:
-cipher = AES.new(key, AES.MODE_CBC, os.urandom(16))
+cipher = AES.new(key, AES.MODE_CBC, iv)
 
 # The way this works, the ciphertext is the IV and the encryption of the message
 # stuck together. Again, don't worry too much about what the IV actually is.
