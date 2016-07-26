@@ -22,11 +22,11 @@ cipher = AES.new(key)
 
 # Calculate the ciphertext and share it with the friend you gave the key.
 ciphertext1 = cipher.encrypt(message)
-print(ciphertext1) # this will look like gibberish!
+print(list(ciphertext1)) # this will look like gibberish!
 
 # Have your friend give you a new ciphertext called ciphertext2, encrypted with
 # the same key.
-ciphertext2 = #whatever your friend gives you...
+ciphertext2 = bytes([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]) #whatever your friend gives you...
 
 # Then decrypt it!
 cipher.decrypt(ciphertext2) # at the end of the decryption, you'll see
