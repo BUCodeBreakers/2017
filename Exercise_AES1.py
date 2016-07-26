@@ -17,19 +17,12 @@ key = 'ilikethiskey1234' # change this!
 message1 = 'sixteen-char msg'
 message2 = 'this message has 0032 characters'
 
-# We also have to generate a magic random number.  It's okay for us to share it!
-# (Unlike a key, which we cannot share.)  We'll call it an IV (short for
-# "initialization vector".  Don't worry about what it does,
-# just know that it's necessary to make this work.
-iv = os.urandom(16)
 
 # Define a cipher object by doing this:
-cipher = AES.new(key, AES.MODE_CBC, iv)
+cipher = AES.new(key)
 
-# The way this works, the ciphertext is the IV and the encryption of the message
-# stuck together. Again, don't worry too much about what the IV actually is.
 # Calculate the ciphertext and share it with the friend you gave the key.
-ciphertext1 = iv + cipher.encrypt(message)
+ciphertext1 = cipher.encrypt(message)
 print(ciphertext1) # this will look like gibberish!
 
 # Have your friend give you a new ciphertext called ciphertext2, encrypted with
