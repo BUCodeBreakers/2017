@@ -21,7 +21,7 @@ message2 = 'this message has 0032 characters'
 # (Unlike a key, which we cannot share.)  We'll call it an IV (short for
 # "initialization vector".  Don't worry about what it does,
 # just know that it's necessary to make this work.
-iv = os.urandom(len(key))
+iv = os.urandom(16)
 
 # Define a cipher object by doing this:
 cipher = AES.new(key, AES.MODE_CBC, os.urandom(16))
