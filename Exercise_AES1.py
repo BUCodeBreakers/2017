@@ -6,7 +6,6 @@ python3
 # Enter the following into the shell (terminal):
 
 from Crypto.Cipher import AES
-import os
 
 # Come up with a 16-character key and share it with someone.
 key = 'ilikethiskey1234' # change this!
