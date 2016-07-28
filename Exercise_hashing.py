@@ -29,11 +29,22 @@ hard = ['3089c7cb4e47f6d84c537fbf32928e3c', 'ab6eb640f9862500b406600489c82287', 
 # like "hard", but two words instead of one (e.g. "company8sub1tract")
 harddoubles = ['214eaad47482389489973af5ba8781d8', 'b4ecd724693b439246ca37c0a9b51e35', '3c7af1459b6e56b0f7acf2651ef96549', '0196e1c30d7e7354f6bd10987a083dec', 'f6c8f4f07a02ca9d15a21deee5303e8d', 'c31a12fe41c6272f73c78b4deacc619a', '07186c5a980d6a3c86c9990e82af37cf', 'e883dd576a9996ba128cbd182b34adc6', 'c2e002ce8bd796aae5aa01c2136807d6', '49fb67b7a86daf3366dc500c975aca37']
 
-# like "medium", but letters randomly selected to be upper or lowercase.
-# This is VERY hard to write properly, and will also take a LONG time to run.
+# like "easy" (no numbers!), but with three random characters chosen from digits, 
+# uppercase, and lowercase at the beginning.  E.g. "Ty2happen"
+salted3 = ['c4bf1f9332015d15feec28e5d47a003d', 'cf1930032e7fcd040ac6da7355b06862', 'bf178d45403aa6f846ae5cebf0f6dd5f', '0dd9b31b5684b5abbfcea9eb304a20c5', 'bc5a9dab4ce2bc221b23cf59bba9e8dd', '22a4fc1022663e6e001ac7a13c4724d9', 'c9860ce70568fede9dd6d0be0838f84f', 'bc0c9d1a2c6ba08b68d14cb380657547', '326a57fe2b2e641b0f3ce9616cf75e9e', '6b15be1b9bdc1ae38d88ae795a5fbf2f']
+
+# same as salted3, but with 4 characters
+salted4 = ['c5a981a373894f06598429ec0724c779', 'c818363d3685842174be3da20ed3ce97', '2835239b611f25e3f03843b3796a08bf', '66e59b8174e0372cd34ea88de20bdf70', '440c0956d73285f4dcc474d24270d058', 'e40fad5e4c7196f62561a98b8a7b100b', 'a66d4f5bbffd18ee591701767b293e2a', '0873f4cf6f7271615e5da7e21f9c1402', 'e7735246c8fa234852506e0d0eb65a62', 'f81827333f8c5e03cac8b4ff0fcb25d5']
+
+# same as salted3, but with 5 characters
+salted5 = ['1cabaa3bc49b6d4602eaac18eeb98341', '9382cfd5040a02f0fae03991d4f5b9a1', 'b637a9d763e2d4742f7afe41cdf1d463', '21d33e49fe6e33359bf071fa4c44dc15', '14950bbb66ec963c69e1225a161f8ac8', '23ac65ea33b82427c72387b297362b83', '11b9632f2dc6798b02c1510efbc2706c', '5e65d91edbff5d17c1ea8453bbcc33d9', '7feb87f393a4f01ed99e9db9459d3815', 'ccf03cb89238547cb698db3d7168f8bf']
+
+# same as salted3, but with 6 characters
+salted6 = ['0e127d2b6202350ef81b6f0fae5e4081', 'cef7a9d7150de859814e0eabdf7586df', 'fbb766916ac7471dde3d67324553ce3e', 'db704f698afed358182691fb95890279', '8e38b11a3978049eb5c0ef1700ccbee5', '07481e27c1f8dd2c4e075a9b797040f9', '37a29f614d50e52c8461842b90cdd92c', '7ea30d789601b3919aa258beba21a855', '584f7f46da87c514043e45a2bf446220', '6878ea64680d075f919183f0e645fb42']
+
+# like "medium", but letters randomly selected to be upper or lowercase.  No salt.
 bonus = ['0ddcef6e958a4bddc0e270b0a6a275a9', '02f8deafb48dea2b9c28c6ded947d2a2', '84cf93b111200588956ca3ddfa53e6cb', 'cbef6f32faea00d819b44e670a976a25', '5f13b24bf80f5415b31eeba22be52315', '7d0e97d1217331e67bb64f2b685c1655', 'a2de1295ed584d5c84425c723b456719', 'f37186dd869420df81004944e8da6363', 'a0a2b3822bbda878003becbd780fc761', '166f53ca159732b1f92eaa74b057779c']
 
-# like "bonus", but with two words. the numbers can be either at the beginning,
-# between the words, or at the end.  E.g. "nEAR29SuBStaNcE" or "68ELEcThit" or "MACHInEnevER13"
-bonus2 = ['76ee6901843f32e0b5e064d358a1ff1d', '9209e280c0f98b7c520bfe422bdad94c', 'c7ff674dd4aa77ce74ad535ace728850', 'b2c11ca0bc936a3a504b72e0802e63ec', 'a766cb1840aff592eed301adf63ce870', 'ca760e41c003c0407a0b1e8a39cfee78', '584e25fab1dd05d4a544f6f7a383c6e5', 'ef0684ebd0cb4d53ae15a8d891646fe8', '8418b9c8efd1d28a402a9d7b6b747859', '93d1ef0441cd8e2f3bb5273da6ae818d']
+# "Industrial-strength" salts are 32 characters long.  Can you crack this hash?
+bonussalted32 = ['758b884db0f82b2919ec39e772e45605']
 
