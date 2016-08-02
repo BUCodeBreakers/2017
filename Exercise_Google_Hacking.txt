@@ -23,6 +23,9 @@ to on Aug 29, 2009?
 
 8. Find an article about Facebook written by Google.
 
+8.5 Find an article " something ... What Is It" about Facebook (features Facebook links) on one of Google servers
+
+
 "Hard" (your mileage may vary)
 
 These ones require you to use your "Terminal" in your Ubuntu VMs.  To do a command, just type it in the terminal.
