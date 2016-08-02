@@ -1,0 +1,60 @@
+Use Google's advanced operators ( http://www.googleguide.com/advanced_operators_reference.html )
+to find the following things:
+
+"Easy" (your mileage may vary)
+
+1. Find any draft (a document that is labeled "draft") in .pdf format from "mit.edu"
+
+2. Get search results for the definition of the word "bark" that does NOT include anything related
+to dogs.
+
+3. Find what Red Bull has to say about Pokemon Go in Australia
+
+"Medium" (your mileage may vary)
+
+4. Find any BU server (from "bu.edu") that runs "Apache/2.2.15".
+
+5. What are the first three bands listed in the mp3 folder at "freestuffcrazy.com"?
+
+6. Find an entire page of search results about surfing that are NOT about surfing the Internet.
+
+7. Eric Gates has a bu.edu email address, and sent email on BU's server.  Who did he send an email
+to on Aug 29, 2009?
+
+8. Find an article about Facebook written by Google.
+
+"Hard" (your mileage may vary)
+
+These ones require you to use your "Terminal" in your Ubuntu VMs.  To do a command, just type it in the terminal.
+For example, try typing 'echo "blahblahblah"' or 'ifconfig' or 'ls' and see what happens.
+
+For these, you'll have to use Google to find commands you can enter into Terminal that get you the answers.
+
+If you get stuck on these, go do one of the "Freeform" questions below and then come back.
+
+9. What is the IP address of "www.bu.edu"?
+
+10. What are the approximate latitude/longitude coordinates of "www.bu.edu"?
+
+11. What version of Apache is "www.bu.edu" running?  (Find this in a different way than you did for question 4.)
+
+12. Who is the administrative contact for "www.bu.edu"?  What is their contact information?
+
+13. When was the domain name "www.bu.edu" activated?
+
+"Freeform"
+
+14. Write a google query that returns as many results as possible.
+
+15. What is the maximum number of words that Google will consider in a search query?
+
+16. What is the longest query (number of characters) that Google will accept without shortening it?
+
+17. Find a site on www.google.com whose keywords have not been indexed by Google's search engine.
+
+18. Find a site that is vulnerable to the Heartbleed attack ( https://en.wikipedia.org/wiki/Heartbleed ).
+How do you know it is susceptible?
+
+19. What was the Akamai CEO doing in Fall 1995?
+
+20. What is the maximum rate of queries that you can ask without getting a captcha request?
