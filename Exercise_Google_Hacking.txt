@@ -23,7 +23,7 @@ to on Aug 29, 2009?
 
 8. Find an article about Facebook written by Google.
 
-8.5 Find an article " something ... What Is It" about Facebook (features Facebook links) on one of Google servers
+8.5 Find an article " something ... What Is It" about Facebook (features Facebook links) on one a Google proxy
 
 
 "Hard" (your mileage may vary)
