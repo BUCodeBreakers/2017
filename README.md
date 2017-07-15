@@ -15,4 +15,4 @@
      - Exercise: exercise5.py, Worksheet 1
    - Day 5:
      - Lectures: PythonProject
-     - Exercise: graphics.py, play.py     
+     - Exercise: graphics.py, play.py, SOLUTION: play_sols.py     
