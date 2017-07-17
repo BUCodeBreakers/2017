@@ -15,4 +15,10 @@
      - Exercise: exercise5.py, Worksheet 1
    - Day 5:
      - Lectures: PythonProject
-     - Exercise: graphics.py, play.py, SOLUTION: play_sols.py     
+     - Exercise: graphics.py, play.py, SOLUTION: play_sols.py  
+
+- **Week 2**
+   - Day 1:
+     - Lectures: Crypto_Day1, terminal
+     - Exercise: caesarDe.py, caesarEn.py
+     
