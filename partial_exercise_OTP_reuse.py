@@ -46,8 +46,6 @@ with open("11letterwords.txt", "r") as f:
 
 # for each word in word_list:
 	# create that word's pair_word
-	word = "abbreviated"
-	pair_word = "mevr_......"
 	# check and see whether the pair_word is also in word_list
 	# there is only one pair of words that works that are both in word_list
 
