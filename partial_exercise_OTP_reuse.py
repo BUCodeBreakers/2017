@@ -4,46 +4,52 @@ pp = pprint.PrettyPrinter(indent=4)
 ciphertext1 = [68, 1, 45, 64, 219, 164, 162, 123, 55, 90, 19]
 ciphertext2 = [72, 6, 57, 65, 193, 161, 170, 108, 63, 65, 24]
 
-# PART 1: Get xored messages
+# Part 1: get xored_msgs
 
 xored_msgs = []
-for i in range(len(ciphertext1)):
-    xored_msgs = xored_msgs + [ciphertext1[i] ^ ciphertext2[i]]
+for c in range(len(ciphertext1)):
+	elem1 = ciphertext1[c]
+	elem2 = ciphertext2[c]
+	elem_xor = elem1 ^ elem2
+	xored_msgs = xored_msgs + [elem_xor]
 
-print xored_msgs
+#print xored_msgs
 
-# PART 2: Get letter pairs
+# xored_msgs = [12, 7, 20, 1, 26, 5, 8, 23, 8, 27, 11]
 
-alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l',
-        'm','n','o','p','q','r','s','t','u','v','w','x','y','z']
+# Part 2: letter pairs
+alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
 letter_pairs = []
 
-for i in range(len(xored_msgs)):
-    letter_pairs = letter_pairs + [[]]
-    for letter1 in alphabet:
-        for letter2 in alphabet:
-            if ord(letter1) ^ ord(letter2) == xored_msgs[i]:
-                letter_pairs[i] = letter_pairs[i] + [(letter1, letter2)]
+for target in xored_msgs:
+	pairs_for_target = []
+	for letter1 in alphabet:
+		for letter2 in alphabet:
+			xored_letters = ord(letter1) ^ ord(letter2)
+			if xored_letters == target:
+				pairs_for_target = pairs_for_target + [(letter1, letter2)]
+	# pairs_for_target is now all pairs for target
+	letter_pairs = letter_pairs + [pairs_for_target]
 
 pp.pprint(letter_pairs)
 
-# PART 3: Find valid words
+# letter_pairs[i] is the list of pairs that lead to xored_msgs[i]
+
+
+# STEP 3: which words can we make out of these letter pairs?
+
 with open("11letterwords.txt", "r") as f:
-    word_list = f.read().split()
+	word_list = f.read().split()
 
-# 3.1: Do pair checking.  For each word, create its pair word, see if it's
-# in the word list.
+#print word_list
 
-# 3.2.1: Write a function to compute the paired word, assuming every letter in
-# the word has a pair.
-def get_pair(word):
-    # return the pair of this word
-    return ""
+# for each word in word_list:
+	# create that word's pair_word
+	word = "abbreviated"
+	pair_word = "mevr_......"
+	# check and see whether the pair_word is also in word_list
+	# there is only one pair of words that works that are both in word_list
 
-# 3.2.2: Loop over the words and see if any of them have a valid pair
-for word in word_list:
-    # change this so it checks if the pair word is in the list
-    []
-        
+
 
