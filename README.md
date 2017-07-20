@@ -21,4 +21,15 @@
    - Day 1:
      - Lectures: Crypto_Day1, terminal
      - Exercise: caesarDe.py, caesarEn.py
-     
+   - Day 2:
+     - Lectures: Crypto_Day2
+     - Exercise:
+   - Day 3:
+     - Lectures: 
+     - Exercise:
+   - Day 4:
+     - Lectures:
+     - Exercise:
+   - Day 5:
+      - Lectures:
+      - Exercise: bit_shift.py
