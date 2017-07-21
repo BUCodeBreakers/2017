@@ -22,14 +22,14 @@
      - Lectures: Crypto_Day1, terminal
      - Exercise: caesarDe.py, caesarEn.py
    - Day 2:
-     - Lectures: Crypto_Day2
-     - Exercise:
+     - Lectures: Crypto_Day2, One Time Pad
+     - Exercise: vigEn.py VigDe.py
    - Day 3:
-     - Lectures: 
-     - Exercise:
+     - Lectures: Perfect Secrecy, Pseudo Random Function
+     - Exercise: 
    - Day 4:
-     - Lectures:
-     - Exercise:
+     - Lectures: Symmetric Encryption AES-EBC AES-CBC
+     - Exercise: One Time Pad exercise
    - Day 5:
-      - Lectures:
+      - Lectures: Public Key
       - Exercise: bit_shift.py
