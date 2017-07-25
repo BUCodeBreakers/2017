@@ -33,3 +33,8 @@
    - Day 5:
       - Lectures: Public Key
       - Exercise: bit_shift.py
+
+**Week 3**
+   - Day 1:
+     - Lectures: Information Hiding
+     - Exercise: steg.py extraction.py
