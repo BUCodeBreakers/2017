@@ -38,3 +38,16 @@
    - Day 1:
      - Lectures: Information Hiding
      - Exercise: steg.py extraction.py
+   - Day 2:
+     - Lectures: HTTP vs. HTTPS & Certificates- Guest Lecturer Lucie, Review of Perfect Secrecy 
+     - Exercise: Find secure/unsecure sites & analyze certificates, attackOnRSA.pdf
+   - Day 3:
+     - Lectures: Privacy, Cookies
+     - Exercise: Ghostery/Light Beam Firefox addon, Cookie Relay, Web Beacon Search
+   - Day 4:
+     - Lectures: Ethics of Hacking, Passwords, Hashing
+     - Exercise: White Hats, Hypothetical Game, Brute Force Password Game, IT Password Game, Password Cracking with Hashes
+   - Day 5:
+      - Lectures: Malware, Web Vulnerabilities, Talk by Patrice from Mitre
+      - Exercise: SQLAttack.pdf, badMontyHall.py
+     
